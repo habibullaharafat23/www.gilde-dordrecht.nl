@@ -30,7 +30,7 @@ consentdiv.innerHTML = `
         <h3 class="consent-headlines">Details</h3>
       </div>
       <div class="nav-item about">
-        <h3 class="consent-headlines">About</h3>
+        <h3 class="consent-headlines">Info</h3>
       </div>
     </div>
     
