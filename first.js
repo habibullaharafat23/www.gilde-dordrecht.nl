@@ -11,7 +11,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/www.gilde-dordrecht.nl@15dbcc33af49ae59cbd151481ecc56245586ff81/style.css";
+ link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/www.gilde-dordrecht.nl@15dbcc33af49ae59cbd151481ecc56245586ff81/style.css";
 //link.href = "style.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
