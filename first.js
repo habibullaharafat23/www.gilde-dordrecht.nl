@@ -30,7 +30,7 @@ consentdiv.innerHTML = `
         <h3 class="consent-headlines">Details</h3>
       </div>
       <div class="nav-item about">
-        <h3 class="consent-headlines">About</h3>
+        <h3 class="consent-headlines">Info</h3>
       </div>
     </div>
     
@@ -128,7 +128,45 @@ consentdiv.innerHTML = `
                 <span class="ConsentSlider"></span>
               </label>
             </div>
+            
           </div>
+
+<div class="cookie-detail-wrapper analyticsCookies">
+            <div class="cookie-detail-headline">
+              <div class="arrow-icon">
+                <span class="catagoryIcon material-symbols-outlined">expand_more</span>
+              </div>
+              <div class="cookie-catagory-name">
+                <span class="consent-headlines atwithIconText cookieCatagory">Analytics</span>
+                <div class="totalCookiesWrapper">
+                  <span class="totalCookies" id="totalAnalyticsCookies"></span>
+                </div>
+              </div>
+              <div class="cookie-toggle">
+                <label class="ConsentSwitch">
+                  // <input type="checkbox">
+                  <input type="checkbox" checked class="inputDisable" disabled>
+                  <span class="ConsentSlider"></span>
+                </label>
+              </div>
+            </div>
+            <div class="cookie-details-descriptions">
+              <p class="consent-descriptions">Statistische cookies helpen website-eigenaren te begrijpen hoe bezoekers met websites omgaan door informatie anoniem te verzamelen en te rapporteren.</p>
+            </div>
+            <div class="all-cookies" style="display:none"></div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          
           <div class="cookie-details-descriptions">
             <p class="consent-descriptions">Marketingcookies worden gebruikt om bezoekers over websites heen te volgen. Het doel is om advertenties weer te geven die relevant en aantrekkelijk zijn voor de individuele gebruiker, en daarmee waardevoller voor uitgevers en derden adverteerders.</p>
           </div>
