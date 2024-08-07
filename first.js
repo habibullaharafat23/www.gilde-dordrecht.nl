@@ -12,7 +12,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/trainandgain.nl@08d5acdab7035581a3af3f3aa2f4f5a45022eede/style.css";
+link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/www.gilde-dordrecht.nl@9f148c389ae300f46ad1eb759dccf895bfd0a8c5/style.css";
 //  link.href = "style.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
