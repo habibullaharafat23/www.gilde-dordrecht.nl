@@ -131,11 +131,7 @@ consentdiv.innerHTML = `
             
           </div>
 
-
-
-
-          
-          <div class="cookie-details-descriptions">
+ <div class="cookie-details-descriptions">
             <p class="consent-descriptions">Marketingcookies worden gebruikt om bezoekers over websites heen te volgen. Het doel is om advertenties weer te geven die relevant en aantrekkelijk zijn voor de individuele gebruiker, en daarmee waardevoller voor uitgevers en derden adverteerders.</p>
           </div>
           <div class="all-cookies" style="display:none"></div>
