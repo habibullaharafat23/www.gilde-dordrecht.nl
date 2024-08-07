@@ -131,38 +131,6 @@ consentdiv.innerHTML = `
             
           </div>
 
-<div class="cookie-detail-wrapper analyticsCookies">
-            <div class="cookie-detail-headline">
-              <div class="arrow-icon">
-                <span class="catagoryIcon material-symbols-outlined">expand_more</span>
-              </div>
-              <div class="cookie-catagory-name">
-                <span class="consent-headlines atwithIconText cookieCatagory">Analytics</span>
-                <div class="totalCookiesWrapper">
-                  <span class="totalCookies" id="totalAnalyticsCookies"></span>
-                </div>
-              </div>
-              <div class="cookie-toggle">
-                <label class="ConsentSwitch">
-                  // <input type="checkbox">
-                  <input type="checkbox" checked class="inputDisable" disabled>
-                  <span class="ConsentSlider"></span>
-                </label>
-              </div>
-            </div>
-            <div class="cookie-details-descriptions">
-              <p class="consent-descriptions">Statistische cookies helpen website-eigenaren te begrijpen hoe bezoekers met websites omgaan door informatie anoniem te verzamelen en te rapporteren.</p>
-            </div>
-            <div class="all-cookies" style="display:none"></div>
-          </div>
-
-
-
-
-
-
-
-
 
 
 
