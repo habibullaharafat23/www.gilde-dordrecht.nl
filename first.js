@@ -11,7 +11,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
- link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/www.gilde-dordrecht.nl@15dbcc33af49ae59cbd151481ecc56245586ff81/style.css";
+link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/www.gilde-dordrecht.nl@15dbcc33af49ae59cbd151481ecc56245586ff81/style.css";
 //link.href = "style.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
@@ -88,29 +88,17 @@ consentdiv.innerHTML = `
           </div>
           <div class="all-cookies" style="display:none"></div>
         </div>
-        <div class="cookie-detail-wrapper analyticsCookies">
-          <div class="cookie-detail-headline">
-            <div class="arrow-icon">
-              <span class="catagoryIcon material-symbols-outlined">expand_more</span>
-            </div>
-            <div class="cookie-catagory-name">
-              <span class="consent-headlines atwithIconText cookieCatagory">Analytics</span>
-              <div class="totalCookiesWrapper">
-                <span class="totalCookies" id="totalAnalyticsCookies"></span>
-              </div>
-            </div>
-            <div class="cookie-toggle">
-              <label class="ConsentSwitch">
-                <input type="checkbox">
-                <span class="ConsentSlider"></span>
-              </label>
-            </div>
-          </div>
-          <div class="cookie-details-descriptions">
-            <p class="consent-descriptions">Statistische cookies helpen website-eigenaren te begrijpen hoe bezoekers met websites omgaan door informatie anoniem te verzamelen en te rapporteren.</p>
-          </div>
-          <div class="all-cookies" style="display:none"></div>
-        </div>
+
+
+        
+
+
+
+
+
+
+
+
         <div class="cookie-detail-wrapper marketingCookies">
           <div class="cookie-detail-headline">
             <div class="arrow-icon">
@@ -128,14 +116,62 @@ consentdiv.innerHTML = `
                 <span class="ConsentSlider"></span>
               </label>
             </div>
-            
           </div>
-
- <div class="cookie-details-descriptions">
+          <div class="cookie-details-descriptions">
             <p class="consent-descriptions">Marketingcookies worden gebruikt om bezoekers over websites heen te volgen. Het doel is om advertenties weer te geven die relevant en aantrekkelijk zijn voor de individuele gebruiker, en daarmee waardevoller voor uitgevers en derden adverteerders.</p>
           </div>
           <div class="all-cookies" style="display:none"></div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="cookie-detail-wrapper analyticsCookies">
+          <div class="cookie-detail-headline">
+            <div class="arrow-icon">
+              <span class="catagoryIcon material-symbols-outlined">expand_more</span>
+            </div>
+            <div class="cookie-catagory-name">
+              <span class="consent-headlines atwithIconText cookieCatagory">Analytics</span>
+              <div class="totalCookiesWrapper">
+                <span class="totalCookies" id="totalAnalyticsCookies"></span>
+              </div>
+            </div>
+            <div class="cookie-toggle">
+              <label class="ConsentSwitch">
+                 <input type="checkbox" checked class="inputDisable" disabled>
+                <span class="ConsentSlider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="cookie-details-descriptions">
+            <p class="consent-descriptions">Statistische cookies helpen website-eigenaren te begrijpen hoe bezoekers met websites omgaan door informatie anoniem te verzamelen en te rapporteren.</p>
+          </div>
+          <div class="all-cookies" style="display:none"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
       <div class="section-content" style="display:none" id="aboutSection">
         <p class="consent-descriptions">
